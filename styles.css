@@ -17,11 +17,57 @@ body {
     column-gap: 30px;
 }
 
+@media (max-width: 1750px) {
+    .grid {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .grid {
+        width: 95%;
+    }
+
+    .grid-item div {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .grid {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        margin: 0 auto;
+    }
+
+    .grid div {
+        top: 0px !important;
+    }
+
+    .container {
+        height: fit-content !important;
+    }
+
+    .grid-item {
+        width: 100%;
+    }
+}
+
 .grid .grid-item {
     background-color: white;
     height: 400px;
     position: relative;
     border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.grid-item:nth-child(odd):hover {
+    top: 10px !important;
+}
+
+.grid-item:nth-child(even):hover {
+    top: -30px !important;
 }
 
 .grid div:nth-child(even) {
@@ -69,4 +115,25 @@ body {
     margin: 0 auto;
     text-decoration: none;
     font-size: 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    color: white !important;
+}
+
+.grid-item1 .button {
+    color: #005af0;
+}
+
+.grid-item2 .button {
+    color: #ec6600;
+}
+.grid-item3 .button {
+    color: #09a600;
+}
+.grid-item4 .button {
+    color: #eb49e1;
 }
