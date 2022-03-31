@@ -1,0 +1,139 @@
+body {
+    background-color: #0d1213;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    column-gap: 30px;
+}
+
+@media (max-width: 1750px) {
+    .grid {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .grid {
+        width: 95%;
+    }
+
+    .grid-item div {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .grid {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        margin: 0 auto;
+    }
+
+    .grid div {
+        top: 0px !important;
+    }
+
+    .container {
+        height: fit-content !important;
+    }
+
+    .grid-item {
+        width: 100%;
+    }
+}
+
+.grid .grid-item {
+    background-color: white;
+    height: 400px;
+    position: relative;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.grid-item:nth-child(odd):hover {
+    top: 10px !important;
+}
+
+.grid-item:nth-child(even):hover {
+    top: -30px !important;
+}
+
+.grid div:nth-child(even) {
+    top: -20px;
+}
+
+.grid div:nth-child(odd) {
+    top: 20px;
+}
+
+.grid-item1 {
+    background: linear-gradient(225deg,#00dcc0,#005af0 75%);
+}
+
+.grid-item2 {
+    background: linear-gradient(225deg,#ec6600,#ffdc00 75%);
+}
+
+.grid-item3 {
+    background: linear-gradient(225deg,#09a600,#e1eb64 75%);
+}
+
+.grid-item4 {
+    background: linear-gradient(225deg,#eb49e1,#5500d7 75%);
+}
+
+.grid-item div {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    color: white !important;
+}
+
+.grid-item1 .button {
+    color: #005af0;
+}
+
+.grid-item2 .button {
+    color: #ec6600;
+}
+.grid-item3 .button {
+    color: #09a600;
+}
+.grid-item4 .button {
+    color: #eb49e1;
+}
