@@ -1,0 +1,24 @@
+.grid .grid-item {
+    background-color: unset;
+}
+
+.grid .grid-item div {
+    align-items: flex-start;
+    padding: 10px 10px;
+    font-size: 32px;
+    text-align: center;
+    height: auto;
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4 {
+    background: unset;
+    border: 1px solid #005af0;
+}
+
+.grid p, .grid li {
+    color: white;
+    font-size: 12px;
+    padding: 0px 10px;
+    text-align: justify;
+}
+
