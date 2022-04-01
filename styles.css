@@ -10,6 +10,7 @@ body {
     --menu-border : #24393d;
     --hover : #20292b; 
     --font-color: #FFF;
+    --font-dark: #000;
 }
 
 .light-mode {
