@@ -14,6 +14,7 @@ body {
 
 .light-mode {
     --font-color: #5C5F62;
+    --font-dark: #000;
     --hover: #f0f1f2;
     --menu-border : #f0f1f2;
     --menu-background : #FFF;
