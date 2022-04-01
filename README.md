@@ -8,6 +8,8 @@ Scrum Team:
 
 Almanza Maya Diego Gerardo
 
+Chávez Gallardo Daniel
+
 De Jesus Velasco Carlos Alberto
 
 Lopez Villavicencio Jose Fernando
