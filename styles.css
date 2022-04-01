@@ -11,6 +11,7 @@ body {
     --hover : #20292b; 
     --font-color: #FFF;
     --font-dark: #000;
+    --ArqColor: #ec6600;
 }
 
 .light-mode {
@@ -19,6 +20,7 @@ body {
     --hover: #f0f1f2;
     --menu-border : #f0f1f2;
     --menu-background : #FFF;
+    --ArqColor: #09a600;
 }
 
 .container {
