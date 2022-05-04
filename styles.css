@@ -1,7 +1,26 @@
 body {
-    background-color: #0d1213;
+    background-color: var(--background-main);
     margin: 0;
     font-family: 'Inter', sans-serif;
+}
+
+.dark-mode {
+    --background-main : #0d1213;
+    --menu-background : #151d1e;
+    --menu-border : #24393d;
+    --hover : #20292b; 
+    --font-color: #FFF;
+    --font-dark: #000;
+    --ArqColor: #ec6600;
+}
+
+.light-mode {
+    --font-color: #5C5F62;
+    --font-dark: #000;
+    --hover: #f0f1f2;
+    --menu-border : #f0f1f2;
+    --menu-background : #FFF;
+    --ArqColor: #09a600;
 }
 
 .container {
@@ -136,4 +155,104 @@ body {
 }
 .grid-item4 .button {
     color: #eb49e1;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 0px 20px;
+    white-space: nowrap;
+}
+li:hover {
+    cursor: pointer;
+}
+
+.nav-wrapper {
+    color: var(--font-color);
+}
+
+.nav-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container .main-ul{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    gap: 30px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container span {
+    padding: 5px;
+}
+
+.dropdown-container span:hover {
+    border-radius: 5px;
+    background-color: var(--hover);
+}
+
+.dropdown-container ul {
+    position: absolute;
+    max-height: 0px;
+    display: none;
+    overflow: hidden;
+    transition: 0.5s ease;
+    background-color: var(--menu-background);
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: 0 5px 30px 5px rgb(66 71 76 / 10%);
+}
+
+.show ul {
+    display: block;
+    max-height: 400px;
+    top: 32px;
+    border: 1px solid var(--menu-border);
+    z-index: 100;
+}
+
+.material-icons {
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.show li {
+    padding: 12px 0px;
+}
+
+.show li:hover {
+    background-color: var(--hover);
+}
+
+.active span{
+    background-color: var(--hover);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    background-color: var(--background-main);
+    cursor: pointer;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+.hidden {
+    display: none;
 }
