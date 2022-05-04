@@ -10,7 +10,7 @@ Almanza Maya Diego Gerardo
 
 Chávez Gallardo Daniel
 
-De Jesus Velasco Carlos Alberto
+De Jesus Velasco Carlos Alberto - carlithoskrap@gmail.com
 
 Lopez Villavicencio Jose Fernando
 
