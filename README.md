@@ -6,7 +6,7 @@ Scrum Master: Amauri Pineda Morales
 
 Scrum Team:
 
-Almanza Maya Diego Gerardo
+Almanza Maya Diego Gerardo - diegogerardoa@gmail.com
 
 Chávez Gallardo Daniel
 
