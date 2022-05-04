@@ -1,6 +1,6 @@
 # IS2_SCRUM_Ing_Software_Equipo
 
-Product Owner: Alan Marcos Jimenez Arce 
+Product Owner: Alan Marcos Jimenez Arce - 21.alan2000@gmail.com
 
 Scrum Master: Amauri Pineda Morales
 
