@@ -10,7 +10,7 @@ Almanza Maya Diego Gerardo - diegogerardoa@gmail.com
 
 Chávez Gallardo Daniel - danielchavez316@aragon.unam.mx
 
-De Jesus Velasco Carlos Alberto - carlithoskrap@gmail.com
+De Jesus Velasco Carlos Alberto - carlosdejesus370@aragon.unam.mx
 
 Lopez Villavicencio Jose Fernando - fernandovillavicencio56@aragon.unam.mx
 
