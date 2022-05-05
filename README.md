@@ -14,6 +14,6 @@ De Jesus Velasco Carlos Alberto - carlithoskrap@gmail.com
 
 Lopez Villavicencio Jose Fernando - fernandovillavicencio56@aragon.unam.mx
 
-Gutierrez Olvera Samantha Aislinn
+Gutierrez Olvera Samantha Aislinn - aislinngutierrez74@aragon.unam.mx
 
 Roldan Granados Brandon Noe - Brandonroldan245@gmail.com
