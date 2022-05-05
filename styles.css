@@ -12,6 +12,7 @@ body {
     --font-color: #FFF;
     --font-dark: #000;
     --ArqColor: #ec6600;
+    --ArqColor2: #ffdc00;
 }
 
 .light-mode {
@@ -21,6 +22,7 @@ body {
     --menu-border : #f0f1f2;
     --menu-background : #FFF;
     --ArqColor: #09a600;
+    --ArqColor2: #c555be;
 }
 
 .container {
