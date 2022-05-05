@@ -16,9 +16,12 @@
 }
 
 .grid p, .grid li {
-    color: white;
+    color: var(--font-color);
     font-size: 12px;
     padding: 0px 10px;
     text-align: justify;
 }
 
+.definiciones li {
+    cursor: auto;
+}

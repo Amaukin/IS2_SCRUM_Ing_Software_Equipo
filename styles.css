@@ -117,7 +117,7 @@ body {
 }
 
 .grid-item div {
-    color: white;
+    color: var(--font-color);
     font-weight: 700;
     font-size: 40px;
     height: 300px;
